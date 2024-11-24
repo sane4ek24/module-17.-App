@@ -4,8 +4,6 @@ from sqlalchemy.orm import relationship
 from app.models import *
 
 
-
-
 class Task(Base):
 
     __tablename__ = 'tasks'
